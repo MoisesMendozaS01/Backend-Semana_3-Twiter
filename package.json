@@ -1,0 +1,19 @@
+{
+  "name": "backend-semana_3-twiter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoisesMendozaS01/Backend-Semana_3-Twiter.git"
+  },
+  "author": "Moises Mendoza S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MoisesMendozaS01/Backend-Semana_3-Twiter/issues"
+  },
+  "homepage": "https://github.com/MoisesMendozaS01/Backend-Semana_3-Twiter#readme"
+}
