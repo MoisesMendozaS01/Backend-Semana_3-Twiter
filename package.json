@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MoisesMendozaS01/Backend-Semana_3-Twiter/issues"
   },
-  "homepage": "https://github.com/MoisesMendozaS01/Backend-Semana_3-Twiter#readme"
+  "homepage": "https://github.com/MoisesMendozaS01/Backend-Semana_3-Twiter#readme",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  }
 }
