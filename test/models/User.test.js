@@ -1,9 +1,9 @@
 const User = require("./../../app/models/User");
 
 describe("Unit Test for User Class",()=>{
-    test("1) Create an User object",()=>{
+    test("1) Requerimiento 1: Create an User object",()=>{
         //Aquí invocamos el código que vas a usar en tu app
-        const user = new User(1,"carlogilmar","Carlo","Bio","dateCreate","lastUpdate")
+        const user = new User(1,"carlogilmar","Carlo","Bio")
 
         // Aquí validas los resultado de ese codigo
         // Esta es una comparación que va a igualar el valor de la izquierda con el valor de la derecha(valro esperado)
@@ -11,7 +11,11 @@ describe("Unit Test for User Class",()=>{
         expect(user.username).toBe("carlogilmar")
         expect(user.name).toBe("Carlo")
         expect(user.bio).toBe("Bio")
-        expect(user.dateCreate).toBe("dateCreate")
-        expect(user.lastUpdate).toBe("lastUpdate")
     });
+    test("2) Requerimiento 2: Fechas de atributos de User",()=>{
+        const user = new User(1,"carlogilmar","Carlo","Bio")
+
+        expect(user.dateCreate).not.toBeUndefined()
+        expect(user.lastUpdate).not.toBeUndefined()
+    })
 })
