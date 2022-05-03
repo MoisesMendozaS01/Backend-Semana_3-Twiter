@@ -9,7 +9,7 @@ describe("Test for UserService",()=>{
         expect(user.id).toBe(1)
         expect(user.bio).not.toBeUndefined()
     });
-    test("Serviios: Requerimiento 2: GEt all user data in a list",()=>{
+    test("Servicios: Requerimiento 2: Get all user data in a list",()=>{
         const user= UserService.create(1,"carlogilmar","Carlo")
         const userInfoInList = UserService.getInfo(user)
 
@@ -17,5 +17,11 @@ describe("Test for UserService",()=>{
         expect(userInfoInList[1]).toBe("carlogilmar")
         expect(userInfoInList[2]).toBe("Carlo")
         expect(userInfoInList[3]).toBe("Sin bio")
+    });
+    test("Servicios: Requerimiento 3: Update sername",()=>{
+        const user= UserService.create(1,"carlogilmar","Carlo")
+        UserService.updateUsername(user,"carlog")
+
+        expect(user.username).toBe("carlog")
     })
 })
