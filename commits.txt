@@ -1,4 +1,5 @@
 "Paso 9: Services: requerimiento 1 (Agregando archivos de UserService y ejecutando pruebas de unidad)"
 "Paso 10: Servicios: Requerimiento 2 (Agregando prueba de unidad para lista de atributos de usuario )"
 "Paso 10.1: Servicios: Requerimiento 2 (Agregando funcion estatica 'getinfo' para lista de atributos de usuario )"
-"Paso 11.1: Servicios: Requerimiento 3 (Agregandp prueba de unidad para edicion de username)"
+"Paso 11.1: Servicios: Requerimiento 3 (Agregando prueba de unidad para edicion de username)"
+"Paso 11.2: Servicios: Requerimiento 3 (Agregando función de update username en UserServices)"
