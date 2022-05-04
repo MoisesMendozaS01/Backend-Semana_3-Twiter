@@ -30,6 +30,7 @@ describe("Test for UserService",()=>{
         const user3 = UserService.create(3,"romarpla","Rodrigo")
 
         const usernames = UserService.getAllUsernames([user1,user2,user3])
+        console.log(usernames)
         expect(usernames).toContain("carlogilmar")
         expect(usernames).toContain("MoisesMendozaS01")
         expect(usernames).toContain("romarpla")
