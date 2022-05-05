@@ -5,6 +5,9 @@ class UserView{
         if (payload === null){
             console.log("Error es null")
             return {error:'/payload no existe/'}
+        }else if(payload.username === null || payload.name === null || payload.id === null){
+            console.log(`necesitan tener un valor válido`)
+            return {error:"/necesitan tener un valor valido/"}
         }
     }
 
