@@ -1,10 +1,14 @@
 const UserService=require("./../services/UserService");
 
-/*class UserView{
-    static create(id, username, name){
-        return new UserService.create(id,username,name,"Sin bio")
+class UserView{
+    static createUser(payload){
+        if (payload === null){
+            console.log("Error es null")
+            return {error:'/payload no existe/'}
+        }
     }
 
 }
 
-module.exports= UserView*/
+
+module.exports= UserView

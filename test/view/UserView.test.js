@@ -5,6 +5,6 @@ describe("Test for Userview",()=>{
         const payload= null
         const result= UserView.createUser(payload)
         //htpps://jest.io/doc/using-matchers#strings
-        expect(result.error).toMatch(/payload no existe/)
+        expect(result.error).toMatch('/payload no existe/')
     })
 })
